@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Sans+Pro&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 55px;
+    font-size: 9vh;
+    font-weight: bold;
+}
+
+header p {
+    margin-top: -40px;
+    font-size: 3vh;
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+section.p1 {
+    background-color: white;
+    padding: 30px;
+}
+
+section.p1 p {
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 8vh;
+}
+
+.imagem{
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 8vh;
+    padding: 30px;
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+main#wall1 {
+    background-image: url('imagens/background001.jpg');
+    background-color: black;
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main#wall2 {
+    background-image: url('imagens/background002.jpg');
+    background-color: black;
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 4vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
